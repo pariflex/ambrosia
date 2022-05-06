@@ -4,7 +4,7 @@ const context = canvas.getContext("2d");
 
 const frameCount = 53;
 const currentFrame = index => (
-  `https://raw.githubusercontent.com/pariflex/ambrosia/main/Images/${index.toString().padStart(4, '0')}.webp`
+  `http://trendyclues.xyz/wp-content/uploads/2022/04/0092.webp/${index.toString().padStart(4, '0')}.webp`
 )
 
 const preloadImages = () => {

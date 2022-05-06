@@ -2,9 +2,9 @@ const html = document.documentElement;
 const canvas = document.getElementById("hero-lightpass");
 const context = canvas.getContext("2d");
 
-const frameCount = 73;
+const frameCount = 53;
 const currentFrame = index => (
-  `http://trendyclues.xyz/wp-content/uploads/2022/04/${index.toString().padStart(4, '0')}.webp`
+  `https://raw.githubusercontent.com/pariflex/ambrosia/main/Images/${index.toString().padStart(4, '0')}.webp`
 )
 
 const preloadImages = () => {

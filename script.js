@@ -2,7 +2,7 @@ const html = document.documentElement;
 const canvas = document.getElementById("hero-lightpass");
 const context = canvas.getContext("2d");
 
-const frameCount = 53;
+const frameCount = 48;
 const currentFrame = index => (
   `https://raw.githubusercontent.com/pariflex/ambrosia/main/Images/${index.toString().padStart(4, '0')}.webp`
 )

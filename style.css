@@ -13,9 +13,12 @@ canvas {
   position: fixed;
   
   transform: translate(-50%, -50%);
-  
- 
-  
+}
+
+ .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 600px) {

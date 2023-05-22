@@ -22,7 +22,7 @@ canvas {
 @media screen and (max-width: 600px) {
 .responsive  {
 padding: 0px 0px;
-display: flex;
+display: block;
 margin: 0px 0px;
 
 
